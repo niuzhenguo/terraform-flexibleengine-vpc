@@ -11,6 +11,6 @@ module "tf-vpc" {
   source = "niuzhenguo/vpc/flexibleengine"
 
   vpc_name = "my_module_vpc"
-  vpc_cidrs = "172.16.1.0/24"
+  vpc_cidr = "172.16.1.0/24"
 }
 ```
