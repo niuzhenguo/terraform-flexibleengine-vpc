@@ -8,7 +8,7 @@ A terraform module to provide FlexibleEngine VPC.
 
 ```hcl
 module "tf-vpc" {
-  source = "ocb/vpc/flexibleengine"
+  source = "niuzhenguo/vpc/flexibleengine"
 
   vpc_name = "my_module_vpc"
   vpc_cidrs = "172.16.1.0/24"
